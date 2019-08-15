@@ -1,0 +1,135 @@
+
+  
+
+
+/* Begin Media Queries 800PX*/
+@media screen and (min-width: 800px) {
+
+  .container {
+    width: 770px;
+  }
+  
+  /*media query nav*/
+  .nav {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+  .main-nav, .nav li {
+    display: inline-block;
+    
+  }
+  .main-nav , .nav li a, .nav li .main-nav, .nav li .nav li a {
+    display: block;
+    text-decoration: none;
+    color: #127e7f;
+    background: #f7f7f7;
+    text-align: center;
+  }
+  .main-nav li.nav a,
+  .main-nav .nav li a:hover, .nav li li.nav a,
+  .nav li .nav li a:hover {
+    color: white;
+    background: #17819e;
+  }
+
+  .main-nav .container, .nav li .container {
+    width: 100%;
+    
+  }
+  .main-nav .gallery-item, .nav li .gallery-item {
+    flex: 0 0 50%;
+  }
+  .main-nav #section-contact, .nav li #section-contact {
+    height: 1000px;
+  }
+  .main-nav .header-contact, .nav li .header-contact {
+    font-size: 65px;
+  }
+  .main-nav h2, .nav li h2 {
+    margin: 0 auto;
+  }
+  .main-nav .direct-contact-container,
+  .main-nav, .nav li .direct-contact-container,
+  .nav li {
+    
+  }
+  .main-nav .direct-contact-container, .nav li .direct-contact-container {
+    margin-top: 60px;
+    max-width: 400px;
+  }
+  .main-nav .social-media-list li, .nav li .social-media-list li {
+    padding:100px: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  .main-nav .social-media-list li:after, .nav li .social-media-list li:after {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+  
+}
+@media screen and (min-width: 800px) {
+
+  .container{
+    width:770px;
+  }
+  
+  .title-about {
+  font-size: 42px;
+}
+  .banner {
+    padding: 100px 0;
+  }
+}
+.about{
+  width:100%;
+}
+.banner-container{
+  padding:100px 15px;
+}
+.ceruleo {
+  font-weight: 20px;
+  font-size: 80px;
+  color: ##3f5577;
+  text-align: center;
+  padding-right: 30px;
+}
+
+.ceruleo h1 {
+    overflow: hidden;
+    font-size: 50px;
+    color:#3f5577;
+    text-align:left;
+  }
+.text-banner p{
+  text-align:center;
+  color:#3f5577;
+}
+.form-group1 {
+display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  
+}
+.button1{
+  flex-basis: 0 0 100%;
+}
+.direct-contact-container1 {
+  display: flex;
+  flex-direction: row;
+}
+  
+.send-button1 {
+  margin-top: 0;
+  padding: 10px;
+  width: 400px;
+  background-color: #8be0f7;
+  border: none;
+  overflow: hidden;
+}
+}

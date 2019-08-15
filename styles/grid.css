@@ -1,0 +1,153 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* begins works page*/
+.row {
+  display: flex;
+  flex-flow: wrap;
+  margin: 0 -15px;
+}
+
+[class*="col-"] {
+  padding: 15px;  
+}
+
+.img-full {
+  width: 100%;
+}
+
+.col-1 {
+  flex: 0 0 8.333%;
+}
+
+.col-2 {
+  flex: 0 0 16.667%;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.333%;
+}
+
+.col-5 {
+  flex: 0 0 41.6667%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+}
+
+.col-7 {
+  flex: 0 0 58.333%;
+}
+
+.col-8 {
+  flex: 0 0 66.667%;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+}
+
+.col-10 {
+  flex: 0 0 83.333%;
+}
+
+.col-11 {
+  flex: 0 0 91.667%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+}
+
+
+
+/* Begin Media Queries 800PX*/
+@media screen and (min-width: 800px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .col-desktop-1 {    
+    flex: 0 0 8.333333%;
+  }
+  .col-desktop-2 {    
+    flex: 0 0 16.666667%;
+  }
+  .col-desktop-3 {    
+    flex: 0 0 25%;
+  }
+  .col-desktop-4 {    
+    flex: 0 0 33.333333%;
+  }
+  .col-desktop-5 {    
+    flex: 0 0 41.666667%;
+  }
+  .col-desktop-6 {    
+    flex: 0 0 50%;
+  }
+  .col-desktop-7 {    
+    flex: 0 0 58.333333%;
+  }
+  .col-desktop-8 {    
+    flex: 0 0 66.666667%;
+  }
+  .col-desktop-9 {    
+    flex: 0 0 75%;
+  }
+  .col-desktop-10 {    
+    flex: 0 0 83.333333%;
+  }
+  .col-desktop-11 {    
+    flex: 0 0 91.666667%;
+  }
+  .col-desktop-12 {    
+    flex: 0 0 100%;
+  }
+  .offset-desktop-1 {
+    margin-left: 8.333333%;
+  }
+  .offset-desktop-2 {
+    margin-left: 16.666667%;
+  }
+  .offset-desktop-3 {
+    margin-left: 25%;
+  }
+  .offset-desktop-4 {
+    margin-left: 33.333333%;
+  }
+  .offset-desktop-5 {
+    margin-left: 41.666667%;
+  }
+  .offset-desktop-6 {
+    margin-left: 50%;
+  }
+  .offset-desktop-7 {
+    margin-left: 58.333333%;
+  }
+  .offset-desktop-8 {
+    margin-left: 66.666667%;
+  }
+  .offset-desktop-9 {
+    margin-left: 75%;
+  }
+  .offset-desktop-10 {
+    margin-left: 83.333333%;
+  }
+  .offset-desktop-11 {
+    margin-left: 91.666667%;
+  }
+  .offset-desktop-12 {
+    margin-left: 100%;
+  }
+}
+}

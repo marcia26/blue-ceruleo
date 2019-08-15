@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Ceruleo Design</title>
+
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/grid.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Sarala" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--head -->
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <img src="https://res.cloudinary.com/aicram26/image/upload/v1552612074/Project1/logo2.png" alt="ceruleoLogo" class="logo">
+
+      <a href="#" class="nav-toggle" aria-label="Toggle Main Menu"><i class="fa fa-lg fa-bars" aria-hidden="true"></i></a>
+    </div>
+    <nav class="main-nav">
+      <div class="container">
+        <ul class="nav">
+
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- body-->
+
+  <section class="banner">
+    <div class="container">
+      <p class="title-about">Let's create something unique and memorable.</p>
+    </div>
+  </section>
+
+  <section class="contact-form">
+    <div class="container">
+      <h1 class="header-contact">Contact Us</h1>
+
+      <!--CONTACT PAGE LEFT-->
+      <div class="row">
+        <div class="col-12 col-desktop-6">
+          <form class="form" role="form" method="post" action="contact.php">
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="NAME" aria-label="enter name" name="name" value=""></input>
+            </div>
+
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="EMAIL" aria-label="enter email" name="email" value="">
+            </div>
+
+            <textarea class="form-control" rows="10" placeholder="MESSAGE" aria-label="leave a message" name="message"></textarea>
+            <div class="form-group">
+              <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+        <div class="button"><span class="send-text" aria-label="send button">SEND</span>
+        </div>
+      
+      </button>
+            </div>
+         
+          </form>
+        </div>
+        <div class="col-12 col-desktop-6">
+          <div class="direct-contact-container">
+
+            <ul class="contact-list">
+              <li class="list-item"><i class="fa fa-map-marker"><span class="contact-text place"><a href="https://www.google.com/maps/place/314+W+Cliff+Dr,+Santa+Cruz,+CA+95060/@36.9592804,-122.0283655,17z/data=!3m1!4b1!4m5!3m4!1s0x808e6a903b2290fb:0x21697121584b9c54!8m2!3d36.9592761!4d-122.0261768" target="_blank" aria-label="Come on in">Santa Cruz | CA</a></span></i></li>
+
+              <li class="list-item"><i class="fa fa-phone"><span class="contact-text phone"><a href="tel:1-831-555-1234" aria-label="Call me now">(831) 555-1234</a></span></i></li>
+
+              <li class="list-item"><i class="fa fa-envelope"><span class="contact-text gmail"><a href="mailto:#" aria-label="Send me an email">ceruleodesign@gmail.com</a></span></i></li>
+
+            </ul>
+          
+          <div class="social-media-list">
+
+            <ul>
+          <li><a href="https://www.twitter.com" rel="noopener" aria-label="twitter" target="_blank" class="contact-icon">
+            <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/" rel="noopener" aria-label="github" target="_blank" class="contact-icon"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com" rel="noopener" aria-label="instagram" target="_blank" class="contact-icon">
+            <i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="https://www.dribble.com" rel="noopener" aria-label="dribble" target="_blank" class="contact-icon"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+        </li>
+        </ul>
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-text"> &copy; Ceruleo Design 2019</p><a href="#" target="_blank" rel="">Terms &amp; Policies</a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="/scripts/menu.js"></script>
+</body>
+
+</html>

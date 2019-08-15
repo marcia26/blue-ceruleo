@@ -1,0 +1,473 @@
+.menu__hide {
+  display: none !important;
+}
+
+.nav-toggle {
+  margin: 15px;
+  display: block;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 0 auto;
+  display:block;
+}
+.main-nav,
+.nav {
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: #f7f7f7;
+}
+
+.main-nav,
+.nav {
+  padding: 0;
+}
+
+.nav li {
+  list-style: none;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.nav li a {
+  display: block;
+  padding: 25px 50px;
+  text-decoration: none;
+  color: #fc6900;
+  background: f7f7f7;
+}
+
+.nav a:hover {
+  color: gray;
+}
+
+a:link,
+a:visited {
+  color: #fc6900;
+}
+
+a:hover,
+a:active {
+  color: gray;
+}
+
+li.nav a,
+.nav li a:hover {
+  color: white;
+  background: #17819e;
+}
+
+.container {
+  padding:0 15px;
+}
+
+body {
+  font-family: "Noto Sans", Sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.ceruleo {
+  font-weight: 20px;
+  font-size: 35px;
+  color: #3f5577;
+  text-align: center;
+  padding-right: 30px;
+}
+
+.text-banner p {
+  font-size: 30px;
+  text-align: left;
+  
+}
+
+.banner {
+  padding: 40px 20px;
+}
+
+.title-about {
+  font-size: 25px;
+}
+
+.banner-container {
+  background-color: white;
+  color: black;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 19px;
+  text-align: center;
+}
+
+.ceruleo h1 {
+  display: none;
+}
+
+.banner {
+  position: relative;
+  background-color: #8be0f7;
+  font-family: "Noto Sans", sans-serif;
+  color: #202020;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+/*begins about page css*/
+.about {
+  padding: 100px 15px;
+}
+
+.works {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+
+.gallery-item {
+  flex: 0 0 100%;
+  
+}
+
+
+
+
+
+
+.header-contact {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font: 60px "Sarala", sans-serif;
+  letter-spacing: 4px;
+  color: #202020;
+  margin-bottom: 25px;
+}
+
+
+
+
+.form-group {
+  padding-bottom: 10px;
+  color: #1d1e22;
+  }
+
+
+.form-control,
+.textarea {
+  width: 100%;
+  background-color: #bbbec1;
+  color: #1d1e22;
+  font-family: 20px, "Noto Sans", Sans-serif;
+  font-weight:bold;
+  letter-spacing: 2px;
+  font-weight: 400;
+  border: none;
+  padding: 10px;
+}
+
+.send-button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 400px;
+  background-color: #8be0f7;
+  border: none;
+  overflow: hidden;
+}
+
+.button {
+  
+}
+
+.send-text {
+  font: 14px "Noto Sans", Sans-serif;
+  letter-spacing: 2px;
+  
+  text-align: center;
+
+}
+
+.button :hover {
+  color: #fff;
+}
+
+.button a {
+  color: #202020;
+  text-decoration: none;
+}
+
+/* Begin Right Contact page */
+.direct-contact-container {
+  max-width: 400px;
+  margin-top: 5px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #3f5577;
+}
+
+.contact-text {
+  font: 18px "Noto Sans", sans-serif;
+  letter-spacing: 2px;
+  color: #bbb;
+}
+
+.place {
+  margin-left: 46px;
+}
+
+.phone {
+  margin-left: 42px;
+}
+
+.gmail {
+  margin-left: 38px;
+}
+
+.contact-text a {
+  color: #3f5577;
+  text-decoration: none;
+}
+
+.contact-text a:hover {
+  color: #202020;
+  text-decoration: none;
+}
+
+.direct-contact-container {
+  display: flex;
+  flex-direction: column;
+}
+/* Social Media Icons */
+.social-media-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 2.3rem;
+  text-align: center;
+  width: 100%;
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.social-media-list li {
+  position: relative;
+  top: 0;
+  left: -20px;
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  margin: 10px auto;
+  line-height: 70px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #8be0f7;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li:hover a {
+  color: #8be0f7;
+}
+
+
+
+/*footer css*/
+footer {
+  color: #202020;
+  background: #f9b66e;
+  position: relative;
+  text-align: center;
+  width:100%;
+}
+
+.footer a {
+  color: #202020;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: gray;
+}
+
+.footer-text{
+  padding-top:15px;
+}
+.banner img {
+  width: 100%;
+}
+
+.main-nav,
+  .nav {
+    min-width: 320px;
+    margin: 0 auto;
+  }
+  .main-nav {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight:normal;
+  }
+  .main-nav li {
+    flex-grow: 1;
+    padding-bottom: 0;
+    margin: 0 2px;
+    align-items: center;
+  }
+  .main-nav li a {
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    color: #127e7f;
+    background: #f7f7f7;
+    text-align: center;
+  }
+  li.nav a,
+  .nav li a:hover {
+    color: white;
+    background: #17819d;
+  }
+  
+
+  .ceruleo h1 {
+    overflow: hidden;
+    font-size: 25px;
+    color:#3f5577;
+  }
+  /*banner*/
+  .banner-image {
+    display: block;
+    margin: 0 auto;
+    /* Centred */
+    width: 100%;
+  }
+  .text-banner p {
+    font-size: 23px;
+    text-align:center;
+  }
+  
+  h2 .banner-container {
+    overflow: hidden;
+  }
+  .send-button {
+    width: 99%;
+  }
+  .header-contact {
+    font-size: 30px;
+  }
+  .contact {
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 35px;
+    margin: 0 auto;
+    /*grid*/
+  }
+
+
+.form-group1 {
+  padding-bottom: 10px;
+  color: #1d1e22;
+  
+  }
+
+.form-control1 {
+  width: 100%;
+  background-color: #bbbec1;
+  color: #1d1e22;
+  font-family: 20px, "Noto Sans", Sans-serif;
+  font-weight:bold;
+  letter-spacing: 2px;
+  font-weight: 400;
+  border: none;
+  padding: 13px;
+  margin-top:15px;
+}
+
+
+.send-button1 {
+  margin-top: 15px;
+  padding: 10px;
+  width: 400px;
+  background-color: #8be0f7;
+  border: none;
+  overflow: hidden;
+  
+}
+
+.button1 {
+  
+}
+
+.send-text1 {
+  font: 14px "Noto Sans", Sans-serif;
+  letter-spacing: 2px;
+  
+  text-align: center;
+
+}
+
+.button1 :hover {
+  color: #fff;
+}
+
+.button1 a {
+  color: #202020;
+  text-decoration: none;
+}
+
+
+@media screen and (min-width: 800px) {
+  .nav-toggle {
+    display: none;
+  }
+  .menu__hide {
+    display: flex !important;
+  }
+}
